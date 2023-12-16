@@ -1,5 +1,9 @@
-static void Main(string[] args)
-    {
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
         Console.WriteLine("Unesite vrijednost stranice x:");
         int x = int.Parse(Console.ReadLine());
 
@@ -23,5 +27,6 @@ static void Main(string[] args)
         else
         {
             Console.WriteLine("Unesene vrijednosti nisu smislene. Vrijednosti moraju biti veće od 0.");
-        }
-    }
+		}
+	}
+}
